@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Plate - Menu</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><h1>Eco Plate</h1></div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="cart.html">Cart</a>
+            <a href="order-history.html">Order History</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <section class="menu-section container">
+        <div class="menu-header">
+            <label for="category">Filter by Category: </label>
+            <select id="category">
+                <option value="All">All</option>
+                <option value="Drinks">Drinks</option>
+                <option value="Snacks">Snacks</option>
+                <option value="Main Course">Main Course</option>
+            </select>
+        </div>
+
+        <div class="grid-3" id="menu-items">
+            <!-- JS populates items -->
+        </div>
+    </section>
+
+    <div class="toast" id="toast">Item added to cart!</div>
+
+    <script src="js/menu.js"></script>
+</body>
+</html>
