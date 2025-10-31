@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eco Plate Admin - Dashboard</title>
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+<header>
+    <div class="logo"><h1>Eco Plate Admin</h1></div>
+    <nav>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="manage-menu.html">Menu Management</a>
+        <a href="manage-orders.html">Orders Management</a>
+        <a href="manage-users.html">Users</a>
+        <a href="#" id="logout">Logout</a>
+    </nav>
+</header>
+
+<section class="dashboard container">
+    <h2>Welcome, Admin!</h2>
+    <div class="cards">
+        <div class="card" id="totalOrders">Total Orders: 0</div>
+        <div class="card" id="totalUsers">Total Users: 0</div>
+        <div class="card" id="totalMenu">Total Menu Items: 0</div>
+        <div class="card" id="totalRevenue">Total Revenue: ₹0</div>
+    </div>
+</section>
+
+<script src="js/dashboard.js"></script>
+</body>
+</html>

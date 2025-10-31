@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eco Plate Admin - Orders Management</title>
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="css/manage-orders.css">
+</head>
+<body>
+<header>
+    <div class="logo"><h1>Eco Plate Admin</h1></div>
+    <nav>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="manage-menu.html">Menu Management</a>
+        <a href="manage-orders.html">Orders Management</a>
+        <a href="manage-users.html">Users</a>
+        <a href="#" id="logout">Logout</a>
+    </nav>
+</header>
+
+<section class="orders-management container">
+    <h2>Orders Management</h2>
+
+    <label for="statusFilter">Filter by Status: </label>
+    <select id="statusFilter">
+        <option value="All">All</option>
+        <option value="Pending">Pending</option>
+        <option value="Completed">Completed</option>
+    </select>
+
+    <div id="ordersTableContainer">
+        <table id="ordersTable">
+            <thead>
+                <tr>
+                    <th>Order ID</th>
+                    <th>User Name</th>
+                    <th>Items</th>
+                    <th>Total Price (₹)</th>
+                    <th>Status</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Orders populated by JS -->
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<div class="toast" id="toast"></div>
+<script src="js/adminOrders.js"></script>
+</body>
+</html>

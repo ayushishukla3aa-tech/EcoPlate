@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Plate - Login</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><h1>Eco Plate</h1></div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="cart.html">Cart</a>
+            <a href="order-history.html">Order History</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <section class="login-section">
+        <div class="login-container">
+            <h2>Login / Sign Up</h2>
+            <form id="loginForm">
+                <label for="email">Email / Username</label>
+                <input type="text" id="email" placeholder="Enter your email">
+                <div class="error" id="emailError"></div>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password">
+                <div class="error" id="passwordError"></div>
+
+                <button type="submit" class="login-btn">Login</button>
+                <button type="button" class="signup-btn" id="signupBtn">Sign Up</button>
+                <div style="margin-top:20px; text-align:center;">
+  <p>Are you an Admin?</p>
+  <a href="admin/index.html">
+    <button type="button" class="login-btn" style="background:#A8D5BA;">
+      Login as Admin
+    </button>
+  </a>
+</div>
+            </form>
+        </div>
+    </section>
+
+    <script src="js/login.js"></script>
+</body>
+</html>

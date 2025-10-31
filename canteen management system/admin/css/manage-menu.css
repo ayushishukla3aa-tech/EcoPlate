@@ -1,0 +1,87 @@
+/* manage-menu.css */
+.menu-management h2 {
+    margin: 30px 0 20px 0;
+}
+
+#addNewItemBtn {
+    background-color: #A8D5BA;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+#addNewItemBtn:hover {
+    background-color: #C3E0E5;
+}
+
+#itemFormContainer {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#itemForm input, #itemForm select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+#itemForm button {
+    margin-right: 10px;
+    border-radius: 8px;
+    padding: 8px 15px;
+}
+
+#saveItemBtn {
+    background-color: #A8D5BA;
+}
+
+#saveItemBtn:hover {
+    background-color: #C3E0E5;
+}
+
+#cancelBtn {
+    background-color: #FFE4B2;
+}
+
+#cancelBtn:hover {
+    background-color: #C3E0E5;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #FFF;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+table img {
+    width: 80px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+table button {
+    background-color: #FFE4B2;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+table button:hover {
+    background-color: #C3E0E5;
+}

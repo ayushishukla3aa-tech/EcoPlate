@@ -1,0 +1,92 @@
+/* admin.css - shared styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FDF6E3;
+    margin: 0;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #A8D5BA;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+header a:hover {
+    color: #C3E0E5;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 15px;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-container {
+    background-color: #FFF;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-container label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.login-btn {
+    background-color: #A8D5BA;
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.error {
+    color: red;
+    font-size: 0.85em;
+    margin-bottom: 5px;
+    text-align: left;
+}
